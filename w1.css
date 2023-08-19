@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Poppins:ital@1&display=swap');
+
+/* for all section| */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation css */
+#nav{
+    height: 70px;
+    width:100%;
+    background-color: black;
+    padding-top: 8px;
+    box-sizing: border-box;
+    position: sticky;
+    top:0px;
+    
+}
+#nav h4 {
+    display: inline-block;
+    width: 1100px;
+}
+#nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+#nav-link:hover{
+    color: rgb(92, 146, 234);
+    }
+    
+/* navigation css ends */
+
+
+/* main section start */
+.main-section{
+    height: 3000px;
+    width: 100%;
+    background-color:rgb(177, 174, 174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#content1,#content2{
+    width: 900px;
+    height: 2000px;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+
+}
+#content1{
+    background-color: white;
+    margin-top: 25px;
+    box-shadow: 0px 8px 16px black;
+}
+#content2{
+    background-color: #ffffff;
+    margin-top: 25px;
+    box-shadow: 0px 8px 16px black;
+    height: 700px;
+}
+#content1 h1{
+    padding-top: 10px;
+}
+
+#content2{
+    padding-left: 20px;
+}
+
+/* main section css ends */
+
+
+
+/* table section css start*/
+
+#books{
+    width: 870px;
+    
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+table{
+    height: 150px;
+}
+#inner{
+    width: 100%;
+    padding-left: 5px;
+    margin: auto;
+}
+
+#link{
+    color: blue;
+}
+
+#no-border {
+    border-bottom: 1px solid transparent;
+}
+
+/* table section css ends */
+
+/* form section css */
+#name,#last-name,#date,#age,#mail,#pass,#confirm-pass{
+    width: 97%;
+    height: 25px;
+    
+    
+}
+
+h4{
+    padding-top: 20px;
+}
+#btn{
+    width: 97%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#btn:hover{
+    background-color: rgb(71, 69, 69);
+}
+
+/* form section css ends */
+
+
+
+
+
+/* footer section */
+
+#copyright{
+    color: white;
+}
+/* footer section ends */
